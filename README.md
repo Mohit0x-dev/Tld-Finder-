@@ -2,7 +2,9 @@
 Find all TLD of Org 
 
 # Install dependencies
-pip install -r requirements.txt
+pip3 install whois>=0.8.0   
+pip3 install  dnspython>=2.4.0
+pip3 install  requests>=2.31.0  
 
 # Basic usage
 python main.py "Google Inc" -d google.com
